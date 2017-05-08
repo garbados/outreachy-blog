@@ -1,0 +1,4 @@
+---
+types: tags
+title: tags
+---
