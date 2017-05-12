@@ -12,9 +12,9 @@ timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://garbados.github.io/outreachy
-root: /
-permalink: :year/:month/:day/:title/
+url: https://garbados.github.io/outreachy-blog
+root: /outreachy-blog
+permalink: :title/
 permalink_defaults:
 
 # Directory
