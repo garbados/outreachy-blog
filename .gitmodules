@@ -1,0 +1,3 @@
+[submodule "themes/weightless"]
+	path = themes/weightless
+	url = https://git.fm/zllovesuki/hexo-theme-weightless.git
