@@ -4,10 +4,4 @@ A static blog, made using [hexo](https://hexo.io/) and the theme [weightless](ht
 
 I try to keep the content [Outreachy](https://wiki.gnome.org/Outreachy/)-specific.
 
-## Writing
-
-TODO
-
-## Publishing
-
-TODO
+**N.B.: I'm still getting this thing set up. Check back soon.**
