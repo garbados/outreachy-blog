@@ -16,4 +16,4 @@ I believe in you. Wish me luck through this, ok? 💖
 [hexo]: https://hexo.io/
 [weightless]: https://zllovesuki.git.sx/essays/2016/02/hexo-theme-weightless/
 [www]: https://garbados.github.io/outreachy-blog
-[src]: https://github.com/garbados/outreachy-blog
+[src]: https://github.com/garbados/outreachy-blog/tree/src
