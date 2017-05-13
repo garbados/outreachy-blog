@@ -67,9 +67,9 @@ theme: weightless
 
 # Feed
 feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+  type: rss2
+  path: rss2.xml
+  limit: 10
   hub:
   content: true
 
