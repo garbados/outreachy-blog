@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '7.4.0'
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: build
+  on:
+    branch: master
+env:
+  global:
+    secure: PGShzkyYOD2ndQDAvoEkGYgLwowSH/0kOfSz/EkIAubLw5QJttep7HpdUicFc6SzLxa1vAvHERDg/ZpHaU2z6vdniCK4gg200r576Bh3WaAwVj7bkHqdMamzOSZvslM7nDColhYzQq5ptZnsqTfluHAIjnlmLPcfFPi5BxoSWESl/5aZBKqnamS2l8DyDyshAywthX3KEhaG5lJH5gxyaOP30iMHkGJkw4LajTqImDx8HYj2prRts0tkUz6xqY+8mXCIse58ExmpHYYtto4KfnQMQmf7GwL7WdhR5YDOa8F19gm1Bk0c6oyamPF22y971diI06KBDUSoIoM8CVOsBpHNDbbfHXKLd9DHmAaUqLSIUzTenLRlWnKGL71kyBfTGcZ2iiIVqzd/i5CK8hkEdBQ7Y6NIrG9lPgjroPwwLYSf6bCGuKSTnp/33HoIjnp83mnJpV31Icw92EC6htWunOSiQ9M7H4GS5ZL4qRI964UU8b12tehnt7FJJG1zWYR9OdpX8fw/64A29D7ncOxBDqy3GCzT6yGcWog0K1juekb00BtrpcbFPh378LvyJ82LFkFRMdKmth12taDVrbqhm4oA8+YMIVR5fO6tuAJz0CvDr6O/w+rZmOxdySVpw4PeMBiGpc7iRWGkZsejPnnTiWZNu6GGnhLqcNxKF+O70VE=
