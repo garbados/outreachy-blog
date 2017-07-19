@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Producing effective documentation can be very difficult. The labor attendant with maintaining it tends to grow exponentially with the complexity and maturity of your project. Once tiny guides explode">
+<meta name="keywords" content="documentation">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Documentation is Hard">
+<meta property="og:url" content="https://garbados.github.io/outreachy-blog/documentation-is-hard/index.html">
+<meta property="og:site_name" content="D&#39;s Outreachy Blog">
+<meta property="og:description" content="Producing effective documentation can be very difficult. The labor attendant with maintaining it tends to grow exponentially with the complexity and maturity of your project. Once tiny guides explode">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2017-07-19T03:16:56.044Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Documentation is Hard">
+<meta name="twitter:description" content="Producing effective documentation can be very difficult. The labor attendant with maintaining it tends to grow exponentially with the complexity and maturity of your project. Once tiny guides explode">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/outreachy-blog/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/outreachy-blog/images/favicon-196x196.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/outreachy-blog/images/apple-touch-icon-152x152.png">
+          
+        
+    
+    <!-- title -->
+    <title>Documentation is Hard</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/outreachy-blog/css/style.css">
+    <!-- rss -->
+    
+    
+</head>
+
+<body>
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/outreachy-blog/">Home</a></li>
+         
+          <li><a href="/outreachy-blog/about/">About</a></li>
+         
+          <li><a href="/outreachy-blog/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/garbados">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/outreachy-blog/the-layer-index/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://garbados.github.io/outreachy-blog/documentation-is-hard/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&text=Documentation is Hard"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&is_video=false&description=Documentation is Hard"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Documentation is Hard&body=Check out this article: https://garbados.github.io/outreachy-blog/documentation-is-hard/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&name=Documentation is Hard&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Readmes"><span class="toc-number">1.</span> <span class="toc-text">Readmes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#API-docs"><span class="toc-number">2.</span> <span class="toc-text">API docs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Audience-Considerations"><span class="toc-number">3.</span> <span class="toc-text">Audience Considerations</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Accessibility-Considerations"><span class="toc-number">4.</span> <span class="toc-text">Accessibility Considerations</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">5.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index width mx-auto px2 my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Documentation is Hard
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">D's Outreachy Blog</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-07-18T21:19:13.000Z" itemprop="datePublished">2017-07-18</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/outreachy-blog/tags/documentation/">documentation</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Producing effective documentation can be very difficult. The labor attendant with maintaining it tends to grow exponentially with the complexity and maturity of your project. Once tiny guides explode over time into sprawling works, while APIs you described in meticulous, comprehensive detail quickly come to lack critical examples. And still, even when you’ve done the best you can do, users show up in your IRC channel asking basic questions because they didn’t read the manual. After a while, you wonder if you can blame them.</p>
+<p>I wouldn’t know how to program if it weren’t for documentation. Poring over readmes and <a href="https://docs.python.org/3/index.html" target="_blank" rel="external">Sphinx sites</a> and <a href="http://backbonejs.org/docs/backbone.html" target="_blank" rel="external">annotated source code</a>, and eventually <a href="https://github.com/garbados/prisoners-dilemma-tournament#prisoners-dilemma-tournament" target="_blank" rel="external">writing my own</a> has given me a deep appreciation for the language we use to make our works accessible. There are some things I’ve come to expect from documentation, so I figured I’d share them:</p>
+<h2 id="Readmes"><a href="#Readmes" class="headerlink" title="Readmes"></a>Readmes</h2><p>For projects of a certain size or nature, the first thing your potential users will encounter might be your readme. I can’t tell you how many readmes I’ve encountered that only included the name of the project and a single sentence vaguely referencing the intended functionality. Even if you haven’t got users, what happens when you need to put the project down? Do you expect your future self, upon returning to it, to painstakingly explore the source code all the while wondering, “What was I thinking?”</p>
+<p>Save yourself the trouble. Include these basic items:</p>
+<ul>
+<li>Project name: How should I call your project?</li>
+<li>Project description: What does it do? Who is it for?</li>
+<li>Project status: Is the project active? Alpha? Beta? Ready for production? Badges (ex: Travis, Coveralls, Greenkeeper, etc.) can help communicate the liveliness of the project. If the project is dead or you have no plans to support it, say so.</li>
+<li>Demo link: Is there a demo? If it’s a static site, is it deployed somewhere I can visit?</li>
+<li>Install instructions: How do I install the project? What does it depend on?</li>
+<li>Usage instructions: How do I use the project? If it has an executable, what flags and arguments does it use? If I need to modify source files to make it work for me, what do I need to modify? How? Why?</li>
+<li>Testing instructions: If there’s a test suite (There better be!) how do I run it?</li>
+<li>Contributor instructions: How should I file a bug report? A feature request? How do I submit patches or PRs? Include links, even examples if you have complex requirements. If it starts to span more than a paragraph, consider writing a CONTRIBUTING file (<a href="https://github.com/beakerbrowser/hashbase/blob/master/CONTRIBUTING.md" target="_blank" rel="external">example</a>) and referencing it from your readme.</li>
+<li>License information: By using your project, what legalese must I oblige? If I need permission to use it, whose permission do I need? How can I contact them?</li>
+</ul>
+<p>As your project grows, more and more of these sections will become links to more comprehensive documents. Still, keeping these sections in your readme even only as links establishes canonical locations for relevant docs.</p>
+<h2 id="API-docs"><a href="#API-docs" class="headerlink" title="API docs"></a>API docs</h2><p>If you’ve got an API, whether a library exposing methods or an HTTP interface, it needs two essentials:</p>
+<ul>
+<li>Practical examples: How do I accomplish the things the project is actually for? Example by example, describe best practices for common tasks.</li>
+<li>Reference docs: List every public method and describe its parameters. Options, headers, understanding possible errors, etc. CouchDB does <a href="https://couchdb.readthedocs.io/en/2.0.0/api/index.html" target="_blank" rel="external">a good job</a> on this.</li>
+</ul>
+<p>It frustrates me to no end when I find libraries with hidden methods that only the maintainers are aware of. Document everything!</p>
+<h2 id="Audience-Considerations"><a href="#Audience-Considerations" class="headerlink" title="Audience Considerations"></a>Audience Considerations</h2><p>As your project grows, you might find people evaluating it who will not be using it directly. You might have seen a <a href="https://github.com/Netflix/unleash#convince-your-manager-why-use-unleash" target="_blank" rel="external">convince your manager</a> section in a readme or two. Often, the manager themself will be reading your documentation, even if they don’t know a <code>for</code> from a <code>while</code>. Think hard about who is using your project for what, and how their needs for information differ. Some folks care about testimonials or how and whether anyone else is using the project. Some folks want guides for use in production, details about performance and scaling considerations, comparisons to similar tools, etc. Some folks wanna know who they can pay for a number to call at 3am in a panic about their failing code. As your project matures, rifts in your userbase will emerge, and their needs will grow more distinct. Think hard about how to accommodate those differences.</p>
+<h2 id="Accessibility-Considerations"><a href="#Accessibility-Considerations" class="headerlink" title="Accessibility Considerations"></a>Accessibility Considerations</h2><p>Not everyone can read, not everyone can read English, and not everyone can read long bodies of text. Video tutorials can help those with dyslexia, and keeping guides short and to the point can help folks who struggle with focus. Segment your documentation into focused sections instead of agglomerating them into 100k+ word manuals. For the folks who want that mega manual to be as mega as possible, many documentation frameworks today provide utilities for building a PDF from your docs which you can distribute to users.</p>
+<p>Consider also internationalization as a matter of accessibility. Baking i18n into your documentation build pipeline will save you work as the project matures, even if you only start with one language. Welcome translations but do your best to double-check them like you would any PR.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Docs matter! Do your best to make them great. Use what you make, and write the docs you want to see in the world. This guide is only a primer for the broader world of documentation best practices, so look around for advice that resonates with you, and think about the documentation that especially helped you.</p>
+<p>Good luck! I believe in you 💖</p>
+
+  </div>
+</article>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/outreachy-blog/">Home</a></li>
+         
+          <li><a href="/outreachy-blog/about/">About</a></li>
+         
+          <li><a href="/outreachy-blog/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/garbados">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Readmes"><span class="toc-number">1.</span> <span class="toc-text">Readmes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#API-docs"><span class="toc-number">2.</span> <span class="toc-text">API docs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Audience-Considerations"><span class="toc-number">3.</span> <span class="toc-text">Audience Considerations</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Accessibility-Considerations"><span class="toc-number">4.</span> <span class="toc-text">Accessibility Considerations</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">5.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://garbados.github.io/outreachy-blog/documentation-is-hard/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&text=Documentation is Hard"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&is_video=false&description=Documentation is Hard"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Documentation is Hard&body=Check out this article: https://garbados.github.io/outreachy-blog/documentation-is-hard/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&title=Documentation is Hard"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://garbados.github.io/outreachy-blog/documentation-is-hard/&name=Documentation is Hard&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 Diana Thayer
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/outreachy-blog/">Home</a></li>
+         
+          <li><a href="/outreachy-blog/about/">About</a></li>
+         
+          <li><a href="/outreachy-blog/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/garbados">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/outreachy-blog/lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/outreachy-blog/lib/meslo-LG/styles.css">
+<link rel="stylesheet" href="/outreachy-blog/lib/justified-gallery/justifiedGallery.min.css">
+
+
+<!-- jquery -->
+<script src="/outreachy-blog/lib/jquery/jquery.min.js"></script>
+<script src="/outreachy-blog/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/outreachy-blog/js/main.js"></script>
+<!-- Google Analytics -->
+
+<!-- Disqus Comments -->
+
+
