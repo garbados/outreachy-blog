@@ -17,6 +17,7 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-lunr": "git+https://git.fm/zllovesuki/hexo-generator-lunr.git",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-pagination": "^0.1.0",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
