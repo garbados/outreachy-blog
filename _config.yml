@@ -6,6 +6,7 @@
 title: D's Outreachy Blog
 subtitle: Software Etc
 description:
+  This is a blog about my 2017 internship with Outreachy and Yocto. Please enjoy your stay.
 author: Diana Thayer
 language: en
 timezone: America/Los_Angeles
@@ -78,4 +79,4 @@ feed:
 deploy:
   type: git
   repo: git@github.com:garbados/outreachy-blog.git
-  branch: master
+  branch: gh-pages
