@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/garbados/outreachy-blog.svg?branch=master)](https://travis-ci.org/garbados/outreachy-blog)
 
-A static blog, made using [Hexo](https://hexo.io/) and the theme [Weightless](https://git.fm/zllovesuki/hexo-theme-weightless).
+A static blog, made using [Hexo](https://hexo.io/) and a [fork](https://github.com/garbados/cactus-dark) of the theme [cactus-dark](https://github.com/probberechts/cactus-dark).
 
 I try to keep the content [Outreachy](https://wiki.gnome.org/Outreachy/)-specific.
 
